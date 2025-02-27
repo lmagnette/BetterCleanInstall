@@ -1,4 +1,4 @@
-package com.github.lmagnette.bettercleaninstall
+package be.lomagnette.bettercleaninstall
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.lmagnette.bettercleaninstall.views
+package be.lomagnette.bettercleaninstall.views
 
 import com.intellij.openapi.ui.DialogWrapper
 import com.intellij.ui.components.JBLabel

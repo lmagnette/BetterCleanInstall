@@ -1,7 +1,7 @@
-package com.github.lmagnette.bettercleaninstall.services
+package be.lomagnette.bettercleaninstall.services
 
-import com.github.lmagnette.bettercleaninstall.util.HttpClient
-import com.github.lmagnette.bettercleaninstall.views.ImageDialogWrapper
+import be.lomagnette.bettercleaninstall.util.HttpClient
+import be.lomagnette.bettercleaninstall.views.ImageDialogWrapper
 import com.intellij.openapi.components.Service
 
 

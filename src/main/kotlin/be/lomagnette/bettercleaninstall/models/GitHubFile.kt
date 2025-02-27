@@ -1,4 +1,4 @@
-package com.github.lmagnette.bettercleaninstall.models
+package be.lomagnette.bettercleaninstall.models
 
 
 import kotlinx.serialization.Serializable

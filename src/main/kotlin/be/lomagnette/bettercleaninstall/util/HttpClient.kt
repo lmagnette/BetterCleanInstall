@@ -1,6 +1,6 @@
-package com.github.lmagnette.bettercleaninstall.util
+package be.lomagnette.bettercleaninstall.util
 
-import com.github.lmagnette.bettercleaninstall.models.GitHubFile
+import be.lomagnette.bettercleaninstall.models.GitHubFile
 import java.net.URI
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse

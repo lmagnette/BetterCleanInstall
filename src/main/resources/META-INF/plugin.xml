@@ -10,7 +10,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <postStartupActivity implementation="com.github.lmagnette.bettercleaninstall.listeners.MavenExecutionStartupActivity"/>
+        <postStartupActivity implementation="be.lomagnette.bettercleaninstall.listeners.MavenExecutionStartupActivity"/>
     </extensions>
 
 </idea-plugin>
