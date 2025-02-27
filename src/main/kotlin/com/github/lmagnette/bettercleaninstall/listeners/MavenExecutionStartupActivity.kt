@@ -28,11 +28,11 @@ class MavenExecutionStartupActivity : StartupActivity {
                         if (goals.contains("clean") && goals.contains("install")) {
                             // The user is running "mvn clean install"
                             val service = project.service<MavenListenerService>()
-                            service.onMavenCleanInstall(project)
+                            service.onMavenCleanInstall()
                             println("Maven Clean Installed")
                         }
                     } catch (e: Exception) {
-                        thisLogger().error(e.message, e);
+                        thisLogger().error(e.message, e)
                     }
                 }
             }

@@ -10,7 +10,6 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.lmagnette.bettercleaninstall.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.lmagnette.bettercleaninstall.listeners.MavenExecutionStartupActivity"/>
     </extensions>
 

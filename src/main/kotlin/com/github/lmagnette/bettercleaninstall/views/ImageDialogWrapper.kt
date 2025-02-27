@@ -16,7 +16,7 @@ class ImageDialogWrapper(val imagePath: String) : DialogWrapper(true) {
 
     init {
         init() // initializes the dialog components
-        title = "For the love of god please use mvn verify"
+        title = "You've Used Mvn Clean Install"
     }
 
     override fun createCenterPanel(): JComponent? {
@@ -33,7 +33,7 @@ class ImageDialogWrapper(val imagePath: String) : DialogWrapper(true) {
 
     override fun createActions(): Array<Action> {
         // First custom close button
-        val closeButton1 = object : DialogWrapperAction("I solemnly swear to use mvn verify in the future") {
+        val closeButton1 = object : DialogWrapperAction("I Solemnly Swear To Use Mvn Verify Next Time") {
             override fun doAction(e: ActionEvent?) {
                 close(OK_EXIT_CODE)
             }

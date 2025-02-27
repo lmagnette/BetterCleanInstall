@@ -22,6 +22,6 @@ class HttpClient {
 
         val files: List<GitHubFile> = Json.decodeFromString(jsonResponse)
 
-        return files;
+        return files
     }
 }
